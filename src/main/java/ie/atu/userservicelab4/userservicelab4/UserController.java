@@ -14,7 +14,6 @@ public class UserController {
     @Autowired
     public void userController(RegistrationService registrationService) {
         this.registrationService = registrationService;
-
     }
 
     @PostMapping("/confirm-and-register")
